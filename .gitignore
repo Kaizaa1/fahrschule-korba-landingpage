@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+.next/
+frontend/.next/
+out/
+dist/
+*.tsbuildinfo
+
+# Tests
+coverage/
+test-results/
+playwright-report/
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Hosting
+.vercel/
+frontend/.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
